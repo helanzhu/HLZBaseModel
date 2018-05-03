@@ -8,7 +8,7 @@
 
 #import "BaseModel.h"
 
-@interface PersonModel : NSObject
+@interface PersonModel : BaseModel
 
 //姓名
 @property (copy, nonatomic) NSString *name;
